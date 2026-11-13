@@ -18,14 +18,14 @@ canonical: https://flu-sch.github.io/dg-ig
 name: SchmefluIG
 
 # TODO: Titel, der oben auf eurer IG-Seite steht.
-title: "Mein Implementation Guide"
+title: "DG Lab IG Flurin Schmed"
 
 # TODO: Ein Satz zu eurem Use Case.
-description: "Implementation Guide aus dem Lab Data Standards in Healthcare an der ZHAW."
+description:  "Profil für Arzneimittelallergien, die eine Hausarztpraxis erfasst und eine Notfallstation auswerten kann."
 
 # TODO: Euer Name.
 publisher:
-  name: "ZHAW Data Standards in Healthcare, Flurin Schmed"
+  name: "Flurin Schmed"
 
 # ---------------------------------------------------------------------
 # Ab hier nichts ändern
