@@ -1,34 +1,56 @@
 <!--
-  Schritt 7: Startseite eures IG
-  Ersetzt die TODOs durch eigenen Text. Markdown ist erlaubt.
-  Diese Seite ist die erste, die man auf GitHub Pages sieht.
--->
 
-### Use Case
+&#x20; Schritt 7: Startseite eures IG
 
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+&#x20; Ersetzt die TODOs durch eigenen Text. Markdown ist erlaubt.
 
-### Scope
+&#x20; Diese Seite ist die erste, die man auf GitHub Pages sieht.
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+\-->
 
-### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
 
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
+\### Use Case
 
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
 
-### Abhängigkeiten
 
-Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
+In diesem Implementation Guide erfassen Hausarztpraxen Arzneimittelallergien strukturiert\[cite: 18]. So kann die Notfallstation im Ernstfall sofort sehen, welche Medikamente problematisch sind, und sicher reagieren\[cite: 18].
 
-### Autorin oder Autor
 
-TODO: Euer Name.
 
-<p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
+\### Scope
+
+
+
+Das IG deckt die wichtigsten Angaben zu Medikamentenallergien ab – darunter den Wirkstoff, die Gefährlichkeit, den Beginn und bekannte Reaktionen\[cite: 18]. Lebensmittel- oder Umweltallergien sowie allgemeine Unverträglichkeiten gehören nicht dazu.
+
+
+
+\### Artefakte
+
+
+
+\* \[DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): Legt die Regeln für Medikamentenallergien fest\[cite: 18, 22].
+
+\* \[Penicillin-Allergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html): Zeigt ein konkretes Beispiel einer bestätigten Penicillin-Allergie mit Hautausschlag\[cite: 18, 22].
+
+
+
+\### Abhängigkeiten
+
+
+
+Dieses IG baut auf \[CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf\[cite: 22].
+
+
+
+\### Autorin oder Autor
+
+
+
+Flurin Schmed
+
+
+
+<p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>\[cite: 22]
+
