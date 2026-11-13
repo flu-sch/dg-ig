@@ -50,3 +50,5 @@ dem IG Publisher macht GitHub Actions für euch.
 * SUSHI-Tutorial: https://fshschool.org/docs/sushi/tutorial/
 * FSH Online (ohne Installation): https://fshonline.fshschool.org/
 * CH Core 6.0.0: https://fhir.ch/ig/ch-core/6.0.0/
+
+
