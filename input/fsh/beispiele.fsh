@@ -29,6 +29,6 @@ Description: "Bestätigte Arzneimittelallergie auf Penicillin mit hoher Kritikal
 * verificationStatus = $allergy-verification#confirmed
 * code = $sct#91936005 "Allergy to penicillin (finding)"
 * criticality = #high
-* onsetDateTime = "2020-05-12"
+* onsetDateTime = 2020-05-12
 * recorder = Reference(DrSaraKellerPraxisAmPark)
 * reaction.manifestation = $sct#126485001 "Urticaria (disorder)"
